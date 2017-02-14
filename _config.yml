@@ -32,3 +32,9 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+page_gen-dirs: true # uncomment, if you prefer to generate named folders
+page_gen:
+  - data: 'member'
+    template: 'profile'
+    name: 'full_name'
+    dir: 'people'
