@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<h1>VC LIST!</h1>
+<h1>VC LIST!!</h1>
 
 <ul>
 {% for list in site.data.vclist %}
