@@ -4,10 +4,10 @@ title: About
 permalink: /about/
 ---
 
-<h1>People!! (generated from YAML)</h1>
+<h1>VC LIST!</h1>
 
 <ul>
-{% for person in site.data.member %}
-  <li><a href="{{ person.full_name | datapage_url: '/people' }}">{{person.full_name}}</a></li>
+{% for list in site.data.vclist %}
+  <li><a href="{{ list.Name | datapage_url: '/vclist' }}">{{list.Name}}</a></li>
 {% endfor %}
 </ul>
