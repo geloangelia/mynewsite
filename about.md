@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<h1>People (generated from YAML)</h1>
+<h1>People!! (generated from YAML)</h1>
 
 <ul>
 {% for person in site.data.member %}
