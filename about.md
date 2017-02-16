@@ -8,14 +8,6 @@ permalink: /about/
 
 <ul>
 {% for person in site.data.member %}
-  <li><a href="{{ person.full_name | datapage_url: 'people' }}">{{person.full_name}}</a></li>
-{% endfor %}
-</ul>
-
-<h1>Pets (generated from JSON)</h1>
-
-<ul>
-{% for pet in site.data.pet %}
-<li><a href="{{ pet.full_name | datapage_url: 'pets' }}">{{pet.full_name}}</a></li>
+  <li><a href="{{ person.full_name | datapage_url: '/people' }}">{{person.full_name}}</a></li>
 {% endfor %}
 </ul>
