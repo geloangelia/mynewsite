@@ -8,6 +8,6 @@ permalink: /profile
 
 <ul>
 {% for list in site.data.vclist %}
-  <li><a href="/vclist/{{ list.Name }}">{{list.Name}}</a></li>
+  <li><a href="_site/vclist/{{ list.Name }}">{{list.Name}}</a></li>
 {% endfor %}
 </ul>
