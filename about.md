@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /about/
+permalink: mynewsite/
 ---
 
 <h1>VC LIST!!</h1>
