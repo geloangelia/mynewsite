@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /about
+permalink: /profile
 ---
 
 <h1>VC LIST!!</h1>
