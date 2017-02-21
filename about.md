@@ -1,13 +1,13 @@
 ---
 layout: page
 title: About
-permalink: mynewsite/
+permalink: /mynewsite
 ---
 
 <h1>VC LIST!!</h1>
 
 <ul>
 {% for list in site.data.vclist %}
-  <li><a href="{{ list.Name | datapage_url: '/vclist' }}">{{list.Name}}</a></li>
+  <li><a href="{{ list.Name | datapage_url: 'vclist' }}">{{list.Name}}</a></li>
 {% endfor %}
 </ul>
