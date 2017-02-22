@@ -27,9 +27,7 @@ github_username:  jekyll
 # Build settings
 markdown: kramdown
 theme: minima
-gems:
-  - jekyll-feed
-  - jekyll-sitemap
+ # This will require each of these gems automatically.
 exclude:
   - Gemfile
   - Gemfile.lock
