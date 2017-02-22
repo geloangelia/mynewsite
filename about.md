@@ -8,6 +8,6 @@ permalink: /profile
 
 <ul>
 {% for person in site.data.member %}
-  <li><a href="{{site.baseurl}}/{{ person.full_name | datapage_url: 'people' }}">{{person.full_name}}</a></li>
+  <li><a href="{{site.github.url}}/{{ person.full_name | datapage_url: 'people' }}">{{person.full_name}}</a></li>
 {% endfor %}
 </ul>
