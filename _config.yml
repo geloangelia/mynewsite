@@ -34,7 +34,7 @@ exclude:
   - Gemfile.lock
 page_gen-dirs: true # uncomment, if you prefer to generate named folders
 page_gen:
-  - data: 'vclist'
+  - data: 'member'
     template: 'profile'
-    name: 'Name'
-    dir: 'vclist'
+    name: 'full_name'
+    dir: 'people'

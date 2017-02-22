@@ -7,7 +7,7 @@ permalink: /profile
 <h1>VC LIST!!!</h1>
 
 <ul>
-{% for list in site.data.vclist %}
-  <li><a href="{{site.baseurl}}/{{ list.Name | datapage_url: '/vclist' }}">{{list.Name}}</a></li>
+{% for person in site.data.member %}
+  <li><a href="{{ person.full_name | datapage_url: 'people' }}">{{person.full_name}}</a></li>
 {% endfor %}
 </ul>
